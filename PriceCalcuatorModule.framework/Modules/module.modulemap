@@ -1,0 +1,11 @@
+framework module PriceCalcuatorModule {
+  umbrella header "PriceCalcuatorModule.h"
+
+  export *
+  module * { export * }
+}
+
+module PriceCalcuatorModule.Swift {
+    header "PriceCalcuatorModule-Swift.h"
+    requires objc
+}
